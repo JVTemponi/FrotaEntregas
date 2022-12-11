@@ -4,7 +4,7 @@ public interface ICustos {
      */
     public void calculaCustoFixo();
     /**
-     * Método calcula custo variável (Custo combustivel + outros Custos + Custos extras)
+     * Método calcula custo variável (Outros Custos + Custos extras)
      */
     public void calculaCustoVariavel();
 }

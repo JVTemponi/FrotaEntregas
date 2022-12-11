@@ -1,0 +1,4 @@
+CARRO;FabricaCarro
+VAN;FabricaVan
+FURGAO;FabricaFurgao
+CAMINHAO;FabricaCaminhao

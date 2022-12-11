@@ -7,8 +7,7 @@ public class Rota {
     private Veiculo veiculoRota;
 
     /**
-     * Método construtor da classe Rota, responsável por inicializar uma instância
-     * de rota e atualizar a kilometragem total do veículo vinculado.
+     * Método construtor da classe Rota, responsável por inicializar uma instância de rota
      * @param distancia double com a Distância da rota
      * @param dtProducao objeto da classe Data, informando a data em que ocorreu a rota
      * @param veiculoParaRota objeto da classe Veiculo, informando o veículo atrelado à rota
@@ -18,8 +17,6 @@ public class Rota {
         this.distancia = distancia;
         this.dtProducao = dtProducao;
         this.veiculoRota = veiculoParaRota;
-        this.veiculoRota.kilometragemTotal += distancia;
-        this.veiculoRota.calculaCustoVariavel();
         concatenarHash();
     }
 
@@ -49,7 +46,7 @@ public class Rota {
     }
 
     /**
-     * Método para imprimir rota, com as informações referentes ao id, e data em que ocorreu a rota
+     * Método para imprimir rota, com as informações referentes ao id e data em que ocorreu a rota
      */
     public void imprimeRota() {
         System.out.println("Rota número: " + this.idRota + " Data Produção da rota: " +
@@ -86,8 +83,7 @@ public class Rota {
 
     /**
      * Método retorna uma String com os dados de rota a serem escritos no arquivo txt
-     * @return Retorna uma String com a distânica, data e placa do ceiículo vinculados
-     * à rota
+     * @return Retorna uma String com a distânica, data e placa do veículo vinculado à rota
      */
     public String escreveRotaArquivo() {
         String salvaParaArquivo = 
