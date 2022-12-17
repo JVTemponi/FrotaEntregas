@@ -1,4 +1,3 @@
-
 public class Caminhao extends Veiculo{
     private final int TANQUE_COMPLETO = 250;
     private final double DIST_VISTORIA_CAMINHAO = 30000d;

@@ -1,4 +1,3 @@
-
 public class Van extends Veiculo{
     private final int TANQUE_COMPLETO = 60;
     private final double DIST_ALINHAMENTO_VAN = 10000d;

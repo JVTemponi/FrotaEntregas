@@ -1,4 +1,3 @@
-
 public class Furgao extends Veiculo {
     private final int TANQUE_COMPLETO = 80;
     private final double DIST_ALINHAMENTO_FURGAO = 10000d;

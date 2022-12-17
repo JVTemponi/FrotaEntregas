@@ -1,5 +1,4 @@
-
-
+package Testes;
 public class CaminhaoTest {
 /*
     //Para executar o teste é necessário alterar o tanque do caminhão para 25000

@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class app {
     static Scanner teclado = new Scanner(System.in);
-    static String arquivoVeiculo = "/media/juvito/Data/Backup_lpm/projetos-3-4-5-grupo-1-novo-1/projetos-3-4-5-grupo-1-novo-1/codigo/Veiculos_ler.txt";
-    static String arquivoRota = "/media/juvito/Data/Backup_lpm/projetos-3-4-5-grupo-1-novo-1/projetos-3-4-5-grupo-1-novo-1/codigo/Rotas_ler.txt";
-    //static String arquivoVeiculo = "C:/Users/Mauricio/Documents/GitHub/projetos-3-4-5-grupo-1-novo-1/codigo/Veiculos_ler.txt";
-    //static String arquivoRota = "C:/Users/Mauricio/Documents/GitHub/projetos-3-4-5-grupo-1-novo-1/codigo/Rotas_ler.txt";
+    static String arquivoVeiculo = "/pastaProjeto/FrotaEntregas/arquivos/Veiculos_ler.txt";
+    static String arquivoRota = "/pastaProjeto/FrotaEntregas/arquivos/Rotas_ler.txt";
     static FabricaCarro carro = new FabricaCarro();
     static FabricaVan van = new FabricaVan();
     static FabricaFurgao furgao = new FabricaFurgao();
